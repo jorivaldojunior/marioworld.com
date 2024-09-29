@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>jogo</title>
+</head>
+<body>
+    <audio autoplay loop id="audioEsperando">
+        <source src="./audios/audios_audioEsperandoIniciarJogo.mp3" type="audio/mp3">
+    </audio>
+    <audio loop id="audioJogoNormal">
+        <source src="./audios/audios_audioMissaoNormal.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audioPulo">
+        <source src="./audios/audios_audioPulo.wav" type="audio/wav">
+    </audio>
+    <audio id="audioMoeda">
+        <source src="./audios/audios_audioMoeda.wav" type="audio/wav">
+    </audio>
+    <audio id="audioVidaExtra">
+        <source src="./audios/audios_audioVidaExtra.wav" type="audio/wav">
+    </audio>
+    <audio id="audioPerdeuVida">
+        <source src="./audios/audios_audioPerdeuVida.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audioGameOver">
+        <source src="./audios/audios_audioGameOver.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audioMissaoRapido">
+        <source src="./audios/audios_audioMissaoRapido.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audioTempoAcabando">
+        <source src="./audios/audios_audioTempoAcabando.wav" type="audio/wav">
+    </audio>
+    <div id="ceu"></div>
+    <div id="cenario">
+        <div id="menudojogo"></div>
+        <div id="tempo">400</div>
+        <div id="vidas">5</div>
+        <div id="moedas">0</div>
+        <div id="pontos">0</div>
+        <div id="personagem"></div>
+        <div id="inimigo"></div>
+        <div id="bloco"></div>
+        <button type="button" id="iniciar">Iniciar o Jogo do Jorivaldo Azevedo! </button>
+        <button type="button" id="reiniciar">Reiniciar o Jogodo Jorivaldo Azevedo!</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
